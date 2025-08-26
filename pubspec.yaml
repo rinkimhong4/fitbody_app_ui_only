@@ -1,0 +1,51 @@
+name: fitbody_app_ui
+description: "A new Flutter project."
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  get: ^4.7.2
+  google_fonts: ^6.3.0
+  dots_indicator: ^4.0.1
+  cached_network_image: ^3.4.1
+  flutter_cache_manager: ^3.3.1
+  sqflite: ^2.3.0
+  cached_network_image_web: ^1.0.1
+  animate_do: ^4.2.0
+  flutter_ruler_picker: ^1.0.6
+  simple_ruler_picker: ^0.1.1
+  google_nav_bar: ^5.0.7
+  flutter_neumorphic:
+    git:
+      url: https://github.com/den0206/Flutter-Neumorphic.git
+  flutter_advanced_switch: ^3.1.0
+  panara_dialogs: ^0.1.5
+  font_awesome_flutter: ^10.9.0
+  intl: ^0.20.2
+  easy_date_timeline: ^2.0.9
+  syncfusion_flutter_charts: ^30.2.6+1
+  glassmorphism_ui: ^0.3.0
+  flutter_spinkit: ^5.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/logos/
