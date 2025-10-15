@@ -39,21 +39,24 @@ class CustomCardWidget extends StatelessWidget {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Text(title, style: AppTextStyles.bodyLarge),
+                Text(
+                  title,
+                  style: AppTextStyles.bodyLarge.copyWith(color: Colors.black),
+                ),
                 const SizedBox(height: 8),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     const Icon(Icons.timer, color: AppColors.neonYellow),
                     const SizedBox(width: 4),
-                    Text(duration),
+                    Text(duration, style: TextStyle(color: Colors.black)),
                     const SizedBox(width: 16),
                     const Icon(
                       Icons.local_fire_department,
                       color: AppColors.neonYellow,
                     ),
                     const SizedBox(width: 4),
-                    Text(calories),
+                    Text(calories, style: TextStyle(color: Colors.black)),
                   ],
                 ),
                 const SizedBox(height: 8),
@@ -65,7 +68,7 @@ class CustomCardWidget extends StatelessWidget {
                       color: AppColors.neonYellow,
                     ),
                     const SizedBox(width: 4),
-                    Text(exerciseCount),
+                    Text(exerciseCount, style: TextStyle(color: Colors.black)),
                   ],
                 ),
               ],
